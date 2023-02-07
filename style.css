@@ -277,7 +277,7 @@ main section ul li button {
   border: none;
   color: #fff;
   padding: 1em 1.5em;
-  border-radius: 0.5em;
+	border-radius: 0 0.5em 0.5em 0;
   display: flex;
   align-items: center;
   width: 10em;
@@ -426,6 +426,7 @@ footer img {
   main section ul li button {
     width: 10em;
     position: static;
+		border-radius: 0.5em;
   }
   a.review-link:before {
     content: 'Read';
